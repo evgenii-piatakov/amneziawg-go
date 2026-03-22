@@ -20,7 +20,7 @@ jobs:
           GOARCH: mipsle
           GOMIPS: softfloat
         run: |
-          go build -o amneziawg-go-mipsle ./...
+          go build -o amneziawg-go-mipsle .
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
